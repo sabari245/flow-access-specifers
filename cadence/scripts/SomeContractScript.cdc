@@ -1,8 +1,7 @@
 import "SomeContract"
 
-pub fun main() {
+pub fun main(): String{
     SomeContract.testStruct.a = "new value" // public set so it can be modified
-    log(SomeContract.testStruct.a)
 
     // SomeContract.testStruct.b = "new value" 
     // SomeContract.testStruct.c = "new value"
@@ -11,4 +10,6 @@ pub fun main() {
     SomeContract.testStruct.publicFunc()
     // SomeContract.testStruct.contractFunc()
     // SomeContract.testStruct.privateFunc()
+
+    return SomeContract.testStruct.a
 }
