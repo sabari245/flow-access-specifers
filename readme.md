@@ -25,7 +25,7 @@ The code provided in this repo explain where each variables can be accessed.
 
 4. To run any script use the command
 
-`flow scripts execute candence/scripts/SomeContractScript.cdc`git
+`flow scripts execute cadence/scripts/SomeContractScript.cdc`git
 
 # Warning
 
